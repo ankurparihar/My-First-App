@@ -29,9 +29,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /** Launch ToastActivity when the use taps the Toast Activity button */
+    /** Launch ToastActivity when the user taps the Toast Activity button */
     public void launchToastActivity(View view) {
         Intent intent = new Intent(this, HelloToastActivity.class);
+        startActivity(intent);
+    }
+
+    /** Launch ScrollActivity when the user taps the Scroll Activity button */
+    public void scrollActivity(View view) {
+        Intent intent = new Intent(this, ScrollActivity.class);
         startActivity(intent);
     }
 }

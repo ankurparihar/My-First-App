@@ -10,15 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ScrollActivity"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
             android:name=".HelloToastActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="Hello Toast">
-        </activity>
+            android:label="Hello Toast"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".DisplayMessageActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="Display Message">
-        </activity>
+            android:label="Display Message"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
